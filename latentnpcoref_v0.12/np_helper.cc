@@ -8,6 +8,7 @@
 #include <iostream>
 #include "DisjointSets.h"
 #include "np_helper.h"
+#include "assert.h"
 
 extern "C" {
   //#include "svm_struct_latent_api_types.h"

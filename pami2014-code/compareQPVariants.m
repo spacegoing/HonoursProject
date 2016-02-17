@@ -44,7 +44,7 @@ set(gca, 'FontSize', 14);
 drawnow;
 
 % plot images
-figure(gcf + 1);
+figure(gcf);
 subplot(3, 4, 1); imagesc(reshape(instance.y, [instance.H, instance.W]));
 axis off; title('groundtruth');
 subplot(3, 4, 2); imagesc(reshape(diff(instance.unary, 1, 2), [instance.H, instance.W]));
